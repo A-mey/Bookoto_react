@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+
+    // background-color: black;
+    background-color: var(--primary-color);
+    padding: 20px;
+
+    &__elements {
+
+        &--right {
+            color: var(--data-color-primary);
+            padding: 10px;
+        }
+    }
+}
+
